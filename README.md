@@ -23,7 +23,7 @@ The following features were used for classification
   - Number of Esclamation marks
 
 ## Block Diagram
-<img src="documentation/Block_Diagram.png" width="450">
+<img class="center" src="documentation/Block_Diagram.png" width="900">
 
 ## Dataset
 
