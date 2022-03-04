@@ -1,4 +1,4 @@
-# Covid19-Misinformation-Detection
+# Covid19 Misinformation Detection in Social Media
 
 Fake news is a type of propaganda where misinformation is intentionally spread through news outlets and/or social media outlets. The gradual spread of fake news and misleading information during hard times can have dire consequences, causing widespread panic and exacerbating the apparent threat of a pandemic that we cannot ignore.
 
