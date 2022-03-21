@@ -37,3 +37,25 @@ The following features were used for classification
 2|Bert with Text Features|86.54
 3|DistilBert|92.75
 4|DistilBert with Text Features|94.03
+
+## Repositary Structure
+
+**`Training_ConstraintAI\`** : Contains jupyter notebooks which consists of code for training the models on Constraint.AI dataset. These models were trained using 6000 samples. 2000 samples were used for validation and 2000 were used for testing.
+- `Bert-Covid-Misinformation-Detection.ipynb` - Code for training Bert based model
+- `Bert-TextFt-Covid-Misinformation-Detection.ipynb` - Code for trainind Bert based model with fused textual features
+- `Distilbert-Covid-Misinformation-Detection.ipynb` - Code for training Distilbert based model
+- `Distilbert-TextFt-Covid-Misinformation-Detection.ipynb` - Code for training Distilbert based model with fused textual features
+
+**`Trained10K\`** : Constains jupyter notebooks which consists of code for training the models on the whole 10000 samples in the Constrain.AI dataset.
+
+**`Prediction\`**: Contains a jupyter notebook which uses the DistillBert with Text Ft trained on 10000 samples to predict labels on another dataset (). The results of the model is saved in the `covid19_tweets_unlabelled_data_predicted.csv`
+
+**`documentation\`**: Contains documentation with screenshots of the entire project. The documentation consists of training details as well.
+
+## Input
+
+The input dataset files from Constraint.AI can be found in the `dataset\` folder
+
+## Output
+
+The final output files which consists of the models predictions is `Prediction\covid19_tweets_unlabelled_data_predicted.csv`
